@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "logins",
+  "info": {
+    "singularName": "login",
+    "pluralName": "logins",
+    "displayName": "login"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "user_password": {
+      "type": "password",
+      "default": " password ",
+      "required": true,
+      "maxLength": 8,
+      "private": true
+    }
+  }
+}
